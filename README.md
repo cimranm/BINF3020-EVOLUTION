@@ -27,7 +27,7 @@ awk '{print (NF, $0)}'
 
 ### Julia 
 
-Uses julia version 1.6.2 (July 14, 2021)  
+Uses julia **version 1.6.2** (July 14, 2021)  
 Current stable release. 
 
 Download [here](https://julialang.org/downloads/)
