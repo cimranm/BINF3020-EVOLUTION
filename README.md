@@ -1,16 +1,18 @@
 # EVOLUTION
 
-Simulate evolving an amino acid sequence
+>Simulate evolving an amino acid sequence
+
 
 [Spec](http://www.cse.unsw.edu.au/~bi3020/21T3/spec11.html)
 
 
+### Sample input 
 ```bash 
 wget http://www.cse.unsw.edu.au/~bi3020/21T3/sample_seqs.zip
 unzip sample_seqs.zip 
 ```
 
-## Hardcoding matrix.txt to Julia matrix 
+### Hardcoding matrix.txt to Julia matrix 
 
 ```bash
 # Getting from text to matrix in julia
@@ -22,6 +24,15 @@ awk '{print (NF, $0)}'
 
 
 ## DEPENDENCIES 
+
+### Julia 
+
+Uses julia version 1.6.2 (July 14, 2021)  
+Current stable release. 
+
+Download [here](https://julialang.org/downloads/)
+
+### BioJulia 
 
 Uses FASTX package from BioJulia.  Can be installed from Julia using REPL 
 ```bash
